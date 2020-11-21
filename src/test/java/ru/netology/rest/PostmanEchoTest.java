@@ -18,7 +18,7 @@ public class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("London is the capital"))
+                .body("data", equalTo("London is the capital of GB"))
         ;
     }
 }
